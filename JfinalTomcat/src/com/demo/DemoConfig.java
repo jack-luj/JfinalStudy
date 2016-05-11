@@ -13,7 +13,7 @@ public class DemoConfig extends JFinalConfig{
 
     public void configRoute(Routes me) {
         me.add("/hello",HelloController.class);
-        me.add("/",Indexcontroller.class);
+        me.add("/",IndexController.class);
     }
      public void configPlugin(Plugins me) {
 
