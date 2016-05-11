@@ -1,4 +1,4 @@
-package demo;
+package com.demo;
 
 import com.jfinal.core.Controller;
 
@@ -7,6 +7,7 @@ import com.jfinal.core.Controller;
  */
 public class Indexcontroller extends Controller{
     public void index(){
-        renderText("tomcat Index");
+        renderText("Jetty Index");
     }
+
 }
