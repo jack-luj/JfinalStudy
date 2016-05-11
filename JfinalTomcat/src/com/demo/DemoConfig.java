@@ -9,6 +9,7 @@ public class DemoConfig extends JFinalConfig{
 
     public void configConstant(Constants me) {
     me.setDevMode(true);
+        me.setJsonDatePattern("yyyy-MM-dd HH:mm:ss");
     }
 
     public void configRoute(Routes me) {
