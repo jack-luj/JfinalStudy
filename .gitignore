@@ -3,14 +3,15 @@
 *.iws
 *.log
 *.log.*
-
+*.class
 .gradle/
 .idea/
 .vscode/
 
 node_modules/
-src/main/resources/static/script/lib/
+web/WEB-INF/classes/
 build/
+out/
 /*.properties
 /src/*/resources/application-*.properties
 /src/*/resources/application-*.yml
