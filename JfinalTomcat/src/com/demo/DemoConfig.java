@@ -1,6 +1,7 @@
 package com.demo;
 
 import com.jfinal.config.*;
+import com.jfinal.plugin.redis.RedisPlugin;
 
 /**
  * Created by jackl on 2016/5/11.
@@ -17,6 +18,8 @@ public class DemoConfig extends JFinalConfig{
         me.add("/",IndexController.class);
     }
      public void configPlugin(Plugins me) {
+         RedisPlugin bbsRedis = new RedisPlugin("bbs", "localhost");
+         me.add(bbsRedis);
 
     }
      public void configInterceptor(Interceptors me) {
