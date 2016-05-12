@@ -1,11 +1,12 @@
 package com.demo;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
  * Created by jackl on 2016/5/11.
  */
-public class User {
+public class User implements Serializable{
     private Long id;
     private String username;
     private String password;
